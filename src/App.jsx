@@ -1,3 +1,7 @@
+// Redirect otomatis ke domain resmi
+if (window.location.hostname === "bimbeldi-mdiq-two.vercel.app") {
+  window.location.replace("https://bimbeldi.mdiq.biz.id" + window.location.pathname);
+}
 import React from "react";
 const WHATSAPP_NUMBER = "6285782475242";
 const WHATSAPP_MESSAGE = encodeURIComponent("Assalamu'alaikum, saya ingin daftar program belajar di MDIQ.");
